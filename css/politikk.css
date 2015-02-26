@@ -1,0 +1,54 @@
+#politikk
+{
+    width:auto;
+    max-width:900px;
+    margin: auto;
+    padding 0px;
+}
+
+#politikk #jab1 h3
+{
+    font-size:30px;
+}
+
+#jab1 {
+    width:600px;
+    float:left;
+    margin: 10px 0px 10px;
+}
+
+#jab2 {
+    width:292px;
+    float:right;
+    margin:40px 0px;
+    background-color:#f0f0f0;
+    padding: 4px;
+    
+}
+
+#jab2 h3
+{
+    background-color:#e2d37e;
+    margin:0px -3px;
+}
+
+table {
+    width:292px;
+    border:0px;
+}
+
+#politikk #jab1 img {
+    width: 580px;
+}
+
+#thor {
+    color:#6c6c6c;
+    border-bottom: solid 1px #000000;
+    width:590px;
+}
+
+#thor2 {
+    color:#f00;
+    text-align: right;
+    padding: 0px 10px;
+}

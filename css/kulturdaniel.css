@@ -1,0 +1,110 @@
+@charset 'utf-8';
+
+body {
+    background-color: #622762;
+    font-family: verdana;
+    color: #d3cad3;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {   
+    color: #ffffff; 
+    background-color: #695869; 
+    margin: 0px 0px;
+}
+
+header h1 {
+    margin: 0px auto;
+    padding: 5px 0px;
+    text-indent: 10px;
+}
+
+nav  { 
+    padding: 7px 20px;
+    background: #717171;
+    border:5px solid;
+    border-top:none!important;
+}
+
+nav a:link, a:visited {
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 0px 20px;
+}
+
+nav a:hover, a:active {
+    color: #000000; 
+    padding: 0px 20px;
+}
+
+#container {
+    border-left: 60px solid #935A86;
+    border-right: 60px solid #935A86;
+}
+
+#news {
+    padding: 20px 0;
+    width:768px;
+    margin: 0 auto;
+}
+
+button {
+
+}
+
+#news .block {
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    float:left;
+    padding: 10px 30px;
+    margin: 0 10px 20px;
+    /*  height: auto; 
+    Fungerer ikke for meg */ 
+}
+
+#news .block img {
+    width: 100%;
+    height: auto;
+}
+
+#footer p {
+    margin: 3px 0;
+}
+
+table {
+    color: #435352;
+    padding: 5px,5px;
+}
+    
+#a1 { 
+    color: #004320;
+    padding: 0px,50px;
+}
+
+/*** STICKY FOOTER ***/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.bilde
+{
+    width: 160px;
+    height: 160px;
+}
+
+
+#footer {
+    padding: 4px 0; 
+    background-color: #935A86;
+    clear: both;
+
+}
+
+.klar
+{
+ clear:both;   
+}

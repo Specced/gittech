@@ -1,0 +1,197 @@
+@charset 'UTF-8';
+
+/*vi har ikke lært om css ennå, men det er superenkelt. Man skriver inn den taggen man vil style, og så styler man den etter en million
+forskjellige verdier og muligheter. Om man har flere av samme tag, som f.eks section, så gir man de en id i html-koden, også styler man
+de med samme navn med hashtag foran i css-filen. */
+
+#matsiden img	{
+	width:900px;	
+}
+
+#matsiden h3	{
+	font-size:300%;	
+}
+
+body
+{
+	background-color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-top: 4px solid #000000;
+	font-family: Helvetica, Verdana, Sans;
+	color: #000000;
+} /*relativt enkelt, spesifiserer bakgrunnsfarge (hvit), svart kant øverst, font og skriftfarge (svart) */
+
+a:link{color:#CBE86B; background-color: #717171; padding:1px 2px; text-decoration: none;}
+a:visited{color:#CBE86B; background-color: #717171; padding:1px 2px;}
+a:hover{color:#F8CA00; background-color: #717171; padding:1px 2px;}
+a:active{color:#F8CA00; background-color: #717171; padding:1px 2px;}
+
+#logowrap header /* Dette gir style for <header> rett etter #logowrap */
+{
+    background-color: #d4d4d4;
+    background: linear-gradient(#c3c3c3, #ffffff); /* Man kan egentlig ikke bruke grad, siden IE selvsagt ikke har støtte for det */
+    background: -webkit-linear-gradient(#c3c3c3, #ffffff); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradien#c3c3c3ed, #ffffffue); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradien#c3c3c3ed, #ffffffue); /* Firefox 3.6 to 15 */
+	width: auto;
+	margin: 0px auto;
+	padding: 15px 0px 5px 0px;
+    text-align: center;
+} 
+
+
+#logowrap header h1
+{
+	font-size: 80px;
+	padding: 0px 10px 5px 0px;
+	margin: 0px;
+    text-shadow: 3px 3px 8px #8b8902 ;
+
+}
+
+#logowrap header p
+{
+    color:#000000;
+    margin:0px;
+    font-size:16px;
+}
+
+/* Navigasjon begynner her */
+
+#header nav
+{
+	background-color: #313131;
+	width: auto;
+	margin: 0px;
+	padding: 5px;
+} /*spesifiserer at denne delen av siden er sentrert og at den max er 900 pixler bred - den vil dog blit mindre på f.eks mobiltlf */
+
+#header nav ul 
+{ 
+	list-style:none;	
+	margin: 0px;
+} /* fjerner punktene fra lista - ul-tag */
+
+#header nav ul li 
+{ 
+	display:inline; /*liste ved siden av hverandre */
+	padding: 0px 5px; 
+} 
+
+#header nav ul li a
+{
+	transition: all .80s ease;
+	text-decoration:none;
+} /*fonten, og en pen overgang når man holder over lenker*/
+
+#header nav ul li a:link
+{color:#CBE86B; background-color: #313131; padding:0px;}
+
+#header nav ul li a:visited
+{color:#CBE86B; background-color: #313131; padding:0px;}
+
+#header nav ul li a:hover
+{color: #F8CA00; text-shadow: 0px 0px 4px #000; background-color: #313131; padding:0px;}
+
+#header nav ul li a:active
+{color: #F8CA00; background-color: #313131; padding:0px;}
+
+
+
+#first /*styling av de tre boksene under overskriften */
+{
+	width: auto;
+	max-width:900px;
+	margin: 0 auto;
+}
+
+#first article
+{
+	float:left;
+	width:250px;
+	margin-right:45px;
+	font-size:14px;
+}
+
+#first article h3
+{
+	font-size:15px;
+	margin-bottom: 10px;
+	margin-left:75px;
+}
+
+#first article p
+{
+	line-height:25px;
+	margin-left:75px;
+}
+
+#first article img
+{
+	float:left;
+    width:70px;
+    margin: 18px 0px;
+}
+
+#footer
+{
+position:relative;
+clear:both;
+width:auto;
+height:220px;
+background:#333333;
+padding:5px;
+}
+
+#footer h4
+{
+    color:#e5e5e5;
+    margin:0px 5px;
+    padding:0px;
+    
+}
+
+#footer ul
+{
+    list-style: none;
+}
+
+#footer ul li
+{
+    margin: 0px 8px;
+    float:left;
+	color:#e5e5e5;
+    font-size:14px;
+}
+
+#footer ul li img
+{
+    margin:0px;
+}
+section {
+    width:auto;
+    max-width:900px;
+    margin:0 auto;
+    
+}
+
+#blackwidow {
+    clear:both;
+    margin:0px;
+}
+
+#blackwidow h3 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+#sistenytt {
+    clear:both;
+    border-top: solid 1px #000000;
+    margin: 10px;
+}
+
+#blackwidow img {
+    width:900px ;
+}
